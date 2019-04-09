@@ -1,0 +1,17 @@
+Ini kebutuhan yang akan digunakan untuk bangun aplikasi (Sistem Inventory barang /pergudangan)
+
+Master Data
+1. Barang : Kd_brg, nama_brg, jenis, harga_beli, harga_jual, Stock
+
+
+Proses
+2. Pembelian : no_pembelian, tgl_pembelian, kd_brg, nama_brg, jenis, harga_beli, jmlh, total 
+
+
+3. Barang_masuk : kd_barang_masuk, tgl_barang_masuk, no_pembelian, tgl_pembelian, kd_brg, nama_brg, jenis, jmlh
+ 
+
+4. Penjualan : no_penjualan, tgl_penjualan, kd_brg, nama_brg, jenis, harga_jual, jmlh, stock
+
+
+Resolusi layar : 1365, 591
